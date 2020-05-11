@@ -7,7 +7,7 @@ const fetchShow = () => {
     )
     .then((res) => {
       console.log(res.data);
-      return res.data;
+      return res;
     })
     .catch((err) => {
       console.log("There was an error: ", err);
